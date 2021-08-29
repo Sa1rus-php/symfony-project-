@@ -31,11 +31,13 @@
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/myclabs/deep-copy" />
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/sources/vendor/pdepend/pdepend" />
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/phar-io/manifest" />
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/phar-io/version" />
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/phpdocumentor/reflection-common" />
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/phpdocumentor/reflection-docblock" />
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/sources/vendor/phpmd/phpmd" />
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/phpspec/prophecy" />
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/phpunit/php-code-coverage" />
       <excludeFolder url="file://$MODULE_DIR$/sources/vendor/phpunit/php-file-iterator" />

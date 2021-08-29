@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="MessDetector">
+    <phpmd_settings>
+      <MessDetectorConfiguration tool_path="$PROJECT_DIR$/sources/vendor/bin/phpmd" />
+    </phpmd_settings>
+  </component>
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/sources/vendor/phar-io/version" />
@@ -134,6 +139,8 @@
       <path value="$PROJECT_DIR$/sources/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/sources/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/sources/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/sources/vendor/phpmd/phpmd" />
+      <path value="$PROJECT_DIR$/sources/vendor/pdepend/pdepend" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />

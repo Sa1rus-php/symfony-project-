@@ -20,16 +20,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07f30d22-d8e3-4afd-b460-00b426791ac3" name="Default Changelist" comment="Адресация через аннотации">
-      <change beforePath="$PROJECT_DIR$/sources/templates/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/sources/templates/about.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/templates/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/sources/templates/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/sources/templates/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/public/app_dev.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/public/css/blog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Controller/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Entity/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Form/PostForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/src/Repository/PostRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/default/about.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/default/feedback.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/lucky/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/post/create.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/post/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/templates/post/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/sources/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sources/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/src/Controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/src/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/src/Controller/LuckyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/src/Controller/LuckyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/src/Controller/RedirectionController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/sources/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/templates/about.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/templates/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/templates/contact.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/templates/index.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/sources/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -183,6 +211,8 @@
       <path value="$PROJECT_DIR$/sources/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/sources/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/sources/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/sources/vendor/phpmd/phpmd" />
+      <path value="$PROJECT_DIR$/sources/vendor/pdepend/pdepend" />
     </include_path>
   </component>
   <component name="ProjectId" id="1vX2AKMxKTtUfHdDGdrxAp0fxOF" />
@@ -195,7 +225,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sources/src/Form" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -207,7 +237,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sources/src/Form" />
+      <recent name="$PROJECT_DIR$/sources/src/Entity" />
+      <recent name="$PROJECT_DIR$/sources/src/Controller" />
+      <recent name="$PROJECT_DIR$/sources/public" />
+      <recent name="$PROJECT_DIR$/sources/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sources/src/Repository" />
       <recent name="$PROJECT_DIR$/sources/templates" />
     </key>
   </component>
@@ -220,6 +258,8 @@
       <option name="presentableId" value="Default" />
       <updated>1626693967139</updated>
       <workItem from="1626693968211" duration="3521000" />
+      <workItem from="1577839210396" duration="1128000" />
+      <workItem from="1629386970447" duration="4186000" />
     </task>
     <task id="LOCAL-00001" summary="Адресация через аннотации">
       <created>1626788667443</created>
@@ -244,12 +284,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Адресация через аннотации" />
     <option name="LAST_COMMIT_MESSAGE" value="Адресация через аннотации" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="354" y="116" key="#Inspections" timestamp="1629390277440">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="354" y="116" key="#Inspections/0.23.1440.812@0.23.1440.812" timestamp="1629390277440" />
     <state x="435" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626698286168">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
